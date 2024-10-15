@@ -19,10 +19,6 @@
 **PATREON:**
 https://www.patreon.com/HackUnderway
 
-# REQUIREMENTS
-```
-pip install -r requirements.txt
-```
 # USAGE
 ```
 git clone https://github.com/HackUnderway/history_X.git
@@ -32,6 +28,11 @@ cd history_X
 ```
 ```
 python3 history_X.py
+```
+
+# REQUIREMENTS
+```
+pip install -r requirements.txt
 ```
 # SUPPORT
 Questions, bugs or suggestions to : info@hackunderway.com
