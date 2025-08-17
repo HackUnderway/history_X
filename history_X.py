@@ -5,7 +5,7 @@ from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
 # Mensajes de ejemplo
-print(Fore.GREEN + Style.BRIGHT + """    
+print(Fore.GREEN + Style.BRIGHT + r"""    
                                 __  __
                                 \ \/ /
                                  \  / 
@@ -13,8 +13,6 @@ print(Fore.GREEN + Style.BRIGHT + """
                                 /_/\_\ 
                           By: Hack Underway
 """)
-
-
 
 def obtener_datos_usuario(nombre_usuario):
     url = f"https://api.memory.lol/v1/tw/{nombre_usuario}"
@@ -45,4 +43,6 @@ def main():
     mostrar_datos_organizados(datos)
 
 if __name__ == "__main__":
-    main()
+    main()
+
+
